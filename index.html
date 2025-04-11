@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <span class="logo"><b>Sanjay Kumar S</b></span>
+            </div>
+            <ul class="nav-center">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="https://github.com/SK-633" target="_blank"><img src="github.png" alt="GitHub" class="social-icon"></a>
+                <a href="mailto:sanjayrahul3636@gmail.com" target="_blank"><img src="mail.png" alt="Gmail" class="social-icon"></a>
+                <a href="https://www.linkedin.com/in/sanjay-kumar-s-37a5b9324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+                target="_blank"><img src="linkedin.png" alt="LinkedIn" class="social-icon"></a>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="home" class="banner">
+        <img src="profile.jpg" alt="Profile" class="profile-pic">
+        <h1>Hi, I'm Sanjay Kumar S</h1>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p class="section-gap">I am Sanjay, a Front-End Developer with a strong focus on UI/UX design. I build intuitive, high-performance web applications using HTML, CSS, JavaScript, React, SQL and Java.</p>
+        <p>Pursuing a B.E. in Computer Science at AMC Engineering College, I am passionate about creating seamless digital experiences that blend design and functionality.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <img src="html.png" alt="HTML" class="skill-img">
+            <img src="css.png" alt="CSS" class="skill-img">
+            <img src="js.png" alt="JavaScript" class="skill-img">
+            <img src="react.png" alt="React" class="skill-img">
+            <img src="sql.png" alt="SQL" class="skill-img">
+            <img src="java.png" alt="Java" class="skill-img">
+            <img src="bootstrap.png" alt="Bootstrap" class="skill-img">
+            <img src="figma.png" alt="Figma" class="skill-img">
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="project1.png" alt="Project 1">
+                <div class="overlay">Bakery Website (UI/UX)</div>
+            </div>
+            <div class="project">
+                <img src="project2.png" alt="Project 2">
+                <div class="overlay">Food Ordering Website (UI/UX)</div>
+            </div>
+            <div class="project">
+                <img src="project3.png" alt="Project 3">
+                <div class="overlay">Zoo Management System</div>
+            </div>
+            <div class="project">
+                <img src="project4.png" alt="Project 4">
+                <div class="overlay">E-commerce Website</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sanjay Kumar S</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
