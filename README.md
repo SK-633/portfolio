@@ -2,6 +2,10 @@
 
 Welcome to my personal portfolio website! This is a responsive one-page website built with HTML, CSS, and JavaScript. It showcases my profile, skills, projects, and contact information.
 
+## Live Demo
+
+[View Portfolio](https://sk-633.github.io/portfolio/)
+
 ## Features
 
 - Responsive design
